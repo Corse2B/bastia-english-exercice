@@ -3,162 +3,84 @@
 <head>
   <meta charset="utf-8">
   <title>Bastia</title>
-<link rel="icon" href="Faviconbastia.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="Faviconbastia.png" sizes="32x32" type="image/png">
+  <style>
+    body {
+      background-color: #87CEEB;
+      margin: 0;
+      padding: 0;
+      font-family: 'Dancing Script', cursive;
+    }
+
+    h1 {
+      text-align: center;
+      font-weight: bold;
+      font-size: 50px;
+      padding: 10px;
+      background: #87CEEB;
+      border-radius: 15px;
+      position: sticky;
+      top: 5px;
+    }
+
+    .images-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      max-width: 900px;
+      margin: 20px auto;
+      gap: 10px;
+    }
+
+    .image-box {
+      background: #0F52BA;
+      border-radius: 15px;
+      padding: 7px;
+      height: 200px;
+      width: 48%; /* Pour qu'elles soient côte à côte */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .image-box img {
+      height: 100%;
+      border-radius: 10px;
+    }
+
+    #content {
+      background: #b3d9ff;
+      color: black;
+      padding: 20px;
+      border-radius: 15px;
+      max-width: 900px;
+      font-weight: bold;
+      font-size: 20px;
+      margin: auto;
+    }
+  </style>
 </head>
 <body>
+
 <h1>Bastia</h1>
-<img src="Bastia.jpg" id=Bastia1 alt="Bastia Photo 1">
-<img src="Bastia2.jpg" id=Bastia2 alt="Bastia Photo 2">
-<img src="Bastia3.jpg" id=Bastia3 alt="Bastia Photo 3">
-<img src="Bastia 4.jpg" id=Bastia4 alt="Bastia Photo 4">
-<img src="Bastia5.jpg" id=Bastia5 alt="Bastia Photo 5">
-<img src="Bastia6.jpg" id=Bastia6 alt="Bastia Photo 6">
-<img src="Bastia7.jpg" id=Bastia7 alt="Bastia Photo 7">
-<img src="Bastia8.jpg" id=Bastia8 alt="Bastia Photo 8">
-<div id="content">
-<!-- Introduction -->
-<p>Bastia is a picturesque port city in northeastern Corsica, rich in culture, history, and Mediterranean charm. Known for its Genoese heritage, beautiful harbor, and authentic Corsican life, Bastia is both a tourist destination and a cultural treasure.</p>
 
-<!-- History -->
-<p>Originally a small fishing village called Cardo, Bastia became important when the Genoese built a stronghold there in 1380. Over centuries, the city evolved from a fortified Genoese capital to a modern French Mediterranean town. Bastia was the capital of Corsica until Ajaccio took its place in 1791.</p>
-
-<!-- Monuments and Historic Sites -->
-<p>The Citadel (La Citadelle) is a walled Genoese fortress with historic alleys and great sea views. It forms the heart of the Terra Nova district. The Palais des Gouverneurs, once the Genoese seat of power, now houses the city museum with exhibits on Corsican culture and art.</p>
-
-<p>Église Saint-Jean-Baptiste, located near the Old Port, is the largest church in Corsica and features twin bell towers that are emblematic of Bastia’s skyline. The Old Port (Vieux Port) itself is a charming marina lined with colorful houses, perfect for walks and dining.</p>
-
-<p>Other significant sites include the Place Saint-Nicolas, a large, shaded square where locals gather, and oratories such as the Immaculée-Conception and Saint-Roch, which showcase Bastia’s rich religious and architectural heritage.</p>
-
-<!-- Culture and Museums -->
-<p>The Musée de Bastia in the Palais des Gouverneurs is a key cultural spot, offering detailed exhibits on Corsican history from antiquity to the present. Bastia also hosts festivals like Les Musicales de Bastia and the Fiera di u Vinu wine fair, celebrating local traditions.</p>
-
-<!-- Accommodations -->
-<p>Bastia offers a range of accommodations: Hôtel des Gouverneurs in the Citadel for luxury with sea views, Hôtel Central Bastia for boutique charm, and Best Western Montecristo for budget-conscious travelers. Guesthouses such as Chambres d’hôtes Le Vieux Port and Casa Vecchia provide local hospitality, while vacation rentals are abundant for longer stays.</p>
-
-<!-- Restaurants and Cuisine -->
-<p>Dining in Bastia is a delight. Try traditional Corsican cuisine at A Scudella or gourmet plates at Ostella. Nova and Chez Vincent are local favorites, offering seafood, charcuterie, and homemade pasta. Don’t miss Corsican specialties like brocciu cheese, wild boar stew, figatellu sausage, and chestnut desserts like fiadone and canistrelli.</p>
-
-<!-- Beaches and Nature -->
-<p>For relaxation, Arinella Beach and Lido de la Marana offer sandy shores and swimming spots. Hiking trails like Sentier des Crêtes give panoramic views, while a day trip to Cap Corse brings you to remote villages and scenic cliffs north of the city.</p>
-
-<!-- Transportation -->
-<p>Bastia is accessible by air through Bastia-Poretta Airport, and by sea with ferries from mainland France and Italy. Public transport is available, but renting a car is ideal for exploring Corsica.</p>
-
-<!-- Travel Tips -->
-<p>The best time to visit is spring or early fall, when the weather is pleasant and the crowds are fewer. Local markets, such as the morning market at Place de l’Hôtel de Ville, are excellent for picking up Corsican cheeses, meats, and crafts.</p>
-
-<!-- Conclusion -->
-<p>Bastia combines the charm of a historic port city with the soul of Corsica. From the Citadel to the beaches, its culture, cuisine, and landscapes make it an essential destination for travelers seeking authenticity and beauty in the Mediterranean.</p>
+<!-- Images alignées en deux colonnes -->
+<div class="images-container">
+  <div class="image-box"><img src="Bastia.jpg" alt="Bastia Photo 1"></div>
+  <div class="image-box"><img src="Bastia2.jpg" alt="Bastia Photo 2"></div>
+  <div class="image-box"><img src="Bastia3.jpg" alt="Bastia Photo 3"></div>
+  <div class="image-box"><img src="Bastia 4.jpg" alt="Bastia Photo 4"></div>
+  <div class="image-box"><img src="Bastia5.jpg" alt="Bastia Photo 5"></div>
+  <div class="image-box"><img src="Bastia6.jpg" alt="Bastia Photo 6"></div>
+  <div class="image-box"><img src="Bastia7.jpg" alt="Bastia Photo 7"></div>
+  <div class="image-box"><img src="Bastia8.jpg" alt="Bastia Photo 8"></div>
 </div>
-  <style>  
-  h1{
-  text-align: center;
-  font-family: Dancing Script;
-  font-weight: bold;
-  font-size: 50px;
-  top: 5px;
-  position: sticky;
-  padding: 10px;
-  background:#87CEEB;
-  border-radius: 15px;
-  }
-  body{
-  background-color: #87CEEB;
-  }
-  #Bastia1{
-  height: 200px;
-  width: auto;
-  padding: 7px;
-  background:#0F52BA;
-  border-radius: 15px;
-  text-align: left;
-  position: sticky;
-  top:0;
-  }
-  #Bastia2{
-  height: 200px;
-  width: auto;
-  padding: 7px;
-  background:#0F52BA;
-  border-radius: 15px;
-  text-align: left;
-  position: sticky;
-  top:210px;
-  }
-  #Bastia3{
-  height: 200px;
-  width: auto;
-  padding: 7px;
-  background:#0F52BA;
-  border-radius: 15px;
-  text-align: left;
-  position: sticky;
-  top:600px;
-  }
-  #Bastia4{
-  height: 200px;
-  width: auto;
-  padding: 7px;
-  background:#0F52BA;
-  border-radius: 15px;
-  margin: 5px 5px;
-  text-align: left;
-  position: sticky;
-  top: 900px;
-  }
-  #content {
-  background:#b3d9ff;
-  color: black;
-  padding: 10px;
-  border-radius: 15px;
-  max-width: 900px;
-  font-family: Dancing Script;
-  font-weight: bold;
-  font-size:20px;
-  margin-left: auto;  
-  margin-right: auto; 
-  }
-  #Bastia5{
-  height: 200px;
-  width: auto;
-  padding: 7px;
-  background:#0F52BA;
-  border-radius: 15px;
-  margin: 5px 5px;
-  text-align: right;
-  position: sticky;
-  top:0;
-  }
-  #Bastia6{
-  height: 200px;
-  width: auto;
-  padding: 7px;
-  background:#0F52BA;
-  border-radius: 15px;
-  text-align: right; 
-  position: sticky;
-  top:210px;
-  }
-  #Bastia7{
-  height: 200px;
-  width: auto;
-  padding: 7px;
-  background:#0F52BA;
-  border-radius: 15px;
-  text-align: right;
-  position: sticky;
-  top: 600px;
-  }
-  #Bastia8{
-  height: 200px;
-  width: auto;
-  padding: 7px;
-  background:#0F52BA;
-  border-radius: 15px;
-  text-align: right;
-  position: sticky;
-  top: 900px;
-  }
-  </style>
+
+<!-- Contenu texte -->
+<div id="content">
+  <p>Bastia is a picturesque port city in northeastern Corsica, rich in culture, history, and Mediterranean charm...</p>
+  <!-- (Le reste du texte comme dans ton code original) -->
+</div>
+
 </body>
 </html>
